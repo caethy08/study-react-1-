@@ -1,16 +1,13 @@
 {
-  "name": "myreact-app9routing",
+  "name": "myreact-study",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "bootstrap": "^5.3.3",
     "react": "^18.3.1",
-    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.25.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -37,10 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }, 
-  "proxy":"http://localhost:80",
-  "_comment" : "기본: SOP (Same Origin Policy, 동일 출처 정책)",
-  "_comment" : "다른 출처의 리소스가 필요하다면 CORS(Cross Origin Resource Sharing, 교차 출처 리소스 공유",
-  "_comment" : "A server <-> B server는 cors에러가 나지 않는다",
-  "_comment" : "CORS 처리는 package.json에 등록 proxy: http://localhost:8080 "
+  }
 }

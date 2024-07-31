@@ -6,6 +6,7 @@ import Counter from "./exam/Counter";
 import Input1 from "./exam/Input1";
 import Input2 from "./exam/Input2";
 import Multidata from "./exam/Multidata";
+import MyAjax from "./exam/MyAjax";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Link to="/input1"> 자료 입력 1</Link> | 
         <Link to="/input2"> 자료 입력 2</Link> | 
         <Link to="/multidata"> 배열 자료</Link> | 
+        <Link to="/myajax"> ajax 요청</Link> | 
       </nav>
 
       <Routes>
@@ -34,6 +36,7 @@ function App() {
         <Route path="/input1" element={<Input1/>}></Route> 
         <Route path="/input2" element={<Input2/>}></Route> 
         <Route path="/multidata" element={<Multidata/>}></Route> 
+        <Route path="/myajax" element={<MyAjax/>}></Route> 
 
       </Routes>
     </div>

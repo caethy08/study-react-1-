@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 //member컴포넌트
 const Member = ({memberData}) => {
