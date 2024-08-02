@@ -29,7 +29,7 @@ function App() {
 
       <Routes>
       {/* 컴포넌트에서 동적 라우팅 구현 가능 */}
-      {/*실질적으로 등장하는 것은 컴포넌트들 element={<[컴포넌트명[>}]*/}
+      {/*실질적으로 등장하는 것은 컴포넌트들 element={<[컴포넌트명]>}*/}
         <Route path="/" element={<MyTest/>}></Route> 
         <Route path="/about" element={<About/>}></Route> 
         <Route path="/count" element={<Counter/>}></Route> 
